@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,100;1,300;1,500;1,700&display=swap");
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDF3F8;
+    scroll-behavior: smooth;
+   
+}
+h2{
+   font-size:33px ; 
+}
+.blog{
+    height: 150vh;
+}
+.card2{
+    display: flex;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+}
+.card{
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    margin-right: 35px;
+    width: 275px;
+    height: 340px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 3px #3a3a3a2a;
+    padding: 19px ;
+}
+.card p{
+    margin-top: -10px;
+    width: 239px;
+    font-size: 10.8px;
+    font-weight: 400;
+}
+
+.card h3{
+    width: 239px;
+    font-size: 15px;
+    color: #1352CB
+}
+
+.read-more{
+    margin-top: 10px;
+    width: 50%;
+}
+ 
+/* MITRA */
+.content-mitra{
+    display: flex;
+    margin: 3rem 0 0 5rem ;
+}
+.content-mitra h2{
+    margin-left: 2rem;
+    margin-right: 4rem;
+    width: 500px;
+    margin-top: 6rem;
+    text-align: left;
+}
+.content-mitra span{
+    color: #FBBC04;
+}
+.content-mitra1{
+    margin: 2rem 8rem 3.5rem 8rem ;
+}
+.content-mitra1 h2{
+    margin-bottom: 1rem;
+}
+.content-mitra2{
+    padding-top: 1rem;
+    background-color: #c4dffa;
+}
+.box{
+    margin-left: 7rem;
+    display: flex;
+}
+.box1{
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    width: 500px;
+}
+.text2, .text2 h2{
+    text-align: left;
+}
+.text2 h2{
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+    font-size: 28px;
+}
+.content-mitra3{
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.paraf1{
+    margin-left: 5rem;
+    width: 450px;
+}
+.paraf1 h2{
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.paraf1 span{
+    color: #FBBC04;
+}
+.paraf1 img:hover{
+    box-shadow: 3px 3px 6px 3px rgb(56, 131, 243);
+    border-radius: 30px;
+}
+
+/* Daftar Mitra */
+.hero1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    bottom: 1rem;
+}
+.form{
+    background-color: #DBE7FF;
+    width: 815px;
+    height: 667px;
+    border-radius: 10px;
+    box-shadow: 3px 2px #1c1c1d15;
+}
+.text1{
+    text-align: center;
+}
+.text1 h1{
+    padding-top: 25px;
+    margin-bottom: -15px;
+    font-size: 29px;
+    color: #1352CB;   
+}
+.text1 p{
+    color: #FBBC04;
+    font-size: 15px;
+    font-weight: bold;
+}
+.po{
+    margin-bottom: -5px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1352CB;
+}
+.colum{
+    background: #EDF3F8;
+    width: 500px;
+    height: 50px;
+    margin: 1rem 8rem 1rem 10rem ;
+    border-radius: 10px;
+    border: solid 1px #1352CB;
+}
+.colum img{
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 3%;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2px 0 2px 0;
+}
+.upload input{
+    background-color: #1352CB;
+    margin-top: 30px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    font-size: 13px;
+    color: #EDF3F8;
+    background-color: #1352CB;
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 14px;
+
+}
+
+.p1{
+    text-align: center;
+    color: #1352CB;
+    font-size: 17px;
+    font-weight: bold;
+}
+.p2{
+    text-align: center;
+    color: #1352CB;
+    font-size: 17px;
+    font-weight: bold
+}
+.p3{
+    text-align: center;
+    color: #1352CB;
+    font-size: 17px;
+    font-weight: bold
+}
+.button {
+    margin-left: 350px;
+    display: flex; 
+    padding: 6px 40px;
+    background-color: #FBBC04;
+    font-weight: bold;
+    color: #1352CB;
+    margin-top: 4%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0;
+}

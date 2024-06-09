@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,500;1,700&display=swap");
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDF3F8;
+    scroll-behavior: smooth;
+    
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDF3F8;
+    align-items: center;
+    padding-right: 2rem;
+    height: 65px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    z-index: 99999;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.navbar-logo{
+    width: 78px;
+    margin-left: 4rem;
+}
+
+.navbar-nav ul li{
+    display: inline-block;
+    margin: 0 1.8rem;
+    align-self: center; 
+}
+.custom-link{
+    text-decoration: none;
+    color: #252525;
+    font-size: 19px;
+    font-weight: 300;
+}
+.navbar-nav ul li:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px rgb(251, 188, 4);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.navbar-nav ul li:hover:after { transform: scaleX(1); }
+
+.navbar-extra img{
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
+.navbar-extra img:hover{
+    transform: scale(1.1);
+}
+
+
+/* HOME */
+.hero{
+    margin: 3rem 0 2rem 0;
+}
+p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.content-home{
+    margin-left: 7rem;
+    margin-right: 5rem;
+    display: flex;
+}
+.content-home h1{
+    width: 376px;
+    height: 249.47px;
+    color: #1352CB;
+    font-size: 38px;
+}
+.content-home span{
+    color: #FBBC04;
+}
+.content-home .span{
+    color: #65AFFF;
+}
+.content-home img{
+    margin-left: 40px;
+    width: 690px;
+    height: 324px;
+}
+.content-home1{
+   margin: 4rem 7rem 1rem 7rem ;
+}
+
+.sample-slider {
+    width: 90%;
+}
+.sample-slider img {
+    width: 120%;
+}
+.sample-slider .swiper-wrapper{
+    transition-timing-function: linear;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    font-size: 33px;
+    color: #1352CB;
+}
+.content-home1 p{
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+.content-home2{
+    margin-top: 5rem;
+}
+.content-home3{
+    margin: 2rem 3rem 0rem 5.5rem ;
+ }
+.cara-pemesanan{
+    margin-top: -2rem;
+    display: flex;
+}
+.cara-pemesanan img{
+    width: 93%;
+}
+.boxs{
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.content-home4{
+    display: flex;
+    margin: 4rem 7rem 0 7rem ;
+}
+.text{
+    margin: 3rem;
+    width: 500px;
+    text-align: left;
+    justify-content: left;
+}
+.text h3{
+    font-size: 38px;
+    color: #1352CB;
+    margin-bottom: -1px;
+}
+.text p{
+    margin-bottom: 3rem;
+}
+.text img:hover{
+    box-shadow: 3px 3px 6px 3px rgb(56, 131, 243);
+    border-radius: 30px;
+}
+.text span{
+    color: #FBBC04;
+}
+.content-home5{
+    margin: -1rem 6rem -1rem 6rem ;
+}
+.content-home6{
+    margin: 1rem 7rem -1rem 7rem ;
+}
+
+
+/* LAYANAN */
+.content-layanan{
+    margin-top: 8rem;
+    margin-bottom: 2.8rem;
+    margin-left: 6rem;
+}
+.content-layanan1{
+    margin-left: 8.5rem;
+    margin-bottom: 4.3rem;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #D6E4FF;
+    height: 180px; 
+}
+hr{
+    border-top: 2px solid #1352CB;
+}
+.footer-content{
+    padding: 5px 20px 10px 50px;
+   
+}
+.product{
+    text-align: center;
+}
+.product p{
+    font-weight: 400;
+}
+.iconsosial{
+    display: flex;
+    justify-content: center;
+}
+.iconsosial a{
+    margin-left: 20px;
+}
+
+.iconsosial a:hover{
+    transform: scale(1.1);
+}
+
+.footernav {
+    display: flex;
+    justify-content: center;
+}
+.footernav a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+
